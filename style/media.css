@@ -1,0 +1,23 @@
+@keyframes move {
+  0% {
+    transform: translate(0, 0);
+    opacity: 1; }
+  30% {
+    transform: translate(0, 20px);
+    opacity: 0.6; }
+  60% {
+    transform: translate(0, 40px);
+    opacity: 0.3; }
+  100% {
+    transform: translate(0, 60px);
+    opacity: 0; } }
+@keyframes sending {
+  0% {
+    opacity: 1; }
+  50% {
+    opacity: 0.5; }
+  100% {
+    transform: translate(100%, 0);
+    opacity: 0; } }
+
+/*# sourceMappingURL=media.css.map */
